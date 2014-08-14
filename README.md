@@ -1,7 +1,7 @@
 BetterTube
 ==========
 
-A better Youtube embeb tag for jekyll.
+A better Youtube embed tag for jekyll.
 
 ## Syntax
 
