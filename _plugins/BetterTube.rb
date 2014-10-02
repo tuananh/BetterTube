@@ -29,7 +29,7 @@ module Jekyll
         intrinsic = ((h.to_f / w.to_f) * 100)
         padding_bottom = ("%.2f" % intrinsic).to_s  + "%"
 
-        thumbnail = "<figure class='BetterTube' data-youtube-id='#{id}' data-player-width='#{w}' data-player-height='#{h}' id='#{id}' style='padding-bottom: #{padding_bottom}'><a class='BetterTubePlayer' href='http://www.youtube.com/watch?v=a_426RiwST8' style='background: url(http://img.youtube.com/vi/#{id}/hqdefault.jpg) 50% 50% no-repeat rgb(0, 0, 0);'></a><div class='BetterTube-playBtn'></div>&nbsp;</figure>"
+        thumbnail = "<figure class='BetterTube' data-youtube-id='#{id}' data-player-width='#{w}' data-player-height='#{h}' id='#{id}' style='padding-bottom: #{padding_bottom}'><a class='BetterTubePlayer' href='http://www.youtube.com/watch?v=a_426RiwST8' style='background: url(http://img.youtube.com/vi/#{id}/hqdefault.jpg) 50% 50% no-repeat rgb(0, 0, 0);'>&nbsp;</a><div class='BetterTube-playBtn'></div>&nbsp;</figure>"
         
         video = %Q{#{thumbnail}}
 
